@@ -239,6 +239,22 @@ button {
 	border-radius: 10px;
 }
 
+button:hover {
+	animation-duration: 0.7s;
+	animation-name: transition;
+}
+
+@keyframes transition {
+	from {
+		background: none;
+	}
+
+	to {
+		background: black;
+		color: white;
+	}
+}
+
 .about-bottom-content {
 	display: flex;
 	flex-wrap: wrap;
