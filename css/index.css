@@ -191,3 +191,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* About.html CSS Selectors */
+
+.about-navigation-bar nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 25px;
+}
